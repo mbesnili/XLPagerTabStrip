@@ -28,5 +28,6 @@
 @interface XLSegmentedPagerTabStripViewController : XLPagerTabStripViewController
 
 @property (nonatomic, readonly) UISegmentedControl * segmentedControl;
+@property (nonatomic, readonly) BOOL shouldUpdateSegmentedControl;
 
 @end
